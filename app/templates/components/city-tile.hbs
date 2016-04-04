@@ -1,0 +1,6 @@
+<ul>
+  {{#each city.rentals as |rental|}}
+    <li>{{rental-tile rental=rental update="update" destroyRental="destroyRental"}}</li>
+  {{/each}}
+</ul>
+<button class="btn" {{action 'destroyCity' city}}>Delete</button>

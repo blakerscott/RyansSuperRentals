@@ -23,5 +23,10 @@
   }, {
     "name": "Seattle",
     "country": "USA"
-  }]
+  }],
+  "announcements":[{
+    "sales": "We are having a sale stay in Seattle.",
+    "weather": "Watch out for storms in Illinois.",
+    "news": "Bernie ROXXXX"
+    }]
 }
